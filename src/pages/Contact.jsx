@@ -1,4 +1,5 @@
 import Footer from "../components/Footer"
+import "./contact.css"
 export default function Contact() {
   return (
     <div className="contact-container">
