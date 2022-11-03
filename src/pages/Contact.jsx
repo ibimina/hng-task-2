@@ -1,7 +1,7 @@
 import Footer from "../components/Footer"
 export default function Contact() {
   return (
-    <div>
+    <div className="contact-container">
       <h2>Contact Me</h2>
       <p>
         Hi there, contact me to ask about anything you have in mind.
