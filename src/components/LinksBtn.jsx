@@ -56,6 +56,9 @@ export default function LinksBtn() {
           {link.title && <span>{link.title}</span>}
         </a>
       ))}
+      <Link to="/contact" className="btn" id="contact">
+        contact
+      </Link>
       <div className="social_icon">
         <img src="/assets/slack.svg" alt="slack icon" />
         <img src="/assets/github.svg" alt="github icon" />
