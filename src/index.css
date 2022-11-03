@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body,
+#root,
+.App {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+    font-family: "Inter";
+  font-style: normal;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+  text-decoration: none;
+}
