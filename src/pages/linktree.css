@@ -120,6 +120,26 @@ footer p {
   line-height: 20px;
   color: #667085;
 }
+  .btn span {
+    display: none;
+  }
+   .btn:hover {
+    position: relative;
+  }
+  .btn:hover span {
+    position: absolute;
+    bottom: -2em;
+    padding: 0.5em 1em;
+    background: #101828;
+    border-radius: 8px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    z-index: 10000;
+    display: block;
+  }
 @media (min-width: 60rem) {
   #profile__img:focus {
     border: 5.5px solid #ebe9fe;
@@ -162,25 +182,5 @@ footer p {
   .container {
     padding: 3em 7em;
   }
-  .btn span {
-    display: none;
-  }
-  .btn:hover {
-    position: relative;
-    /* cursor: help; */
-  }
-  .btn:hover span {
-    position: absolute;
-    bottom: -2em;
-    padding: 0.5em 1em;
-    background: #101828;
-    border-radius: 8px;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    z-index: 10000;
-    display: block;
-  }
+ 
 }
