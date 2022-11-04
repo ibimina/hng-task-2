@@ -58,3 +58,7 @@
   border-radius: 8px;
   color: #ffffff;
 }
+.submit:hover {
+  background: #175cd3;
+  border: 1px solid #175cd3;
+}
