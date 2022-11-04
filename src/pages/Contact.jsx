@@ -59,7 +59,7 @@ export default function Contact() {
             ></textarea>
           </div>
           <div className="flex">
-            <input type="checkbox" name="agree" id="" />
+            <input type="checkbox" name="agree" className="check"/>
             <label htmlFor="agree">
               You agree to providing your data to{name} who you may contzact you
             </label>
