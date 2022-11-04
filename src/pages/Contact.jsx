@@ -60,7 +60,7 @@ export default function Contact() {
           </div>
           <div className="flex">
             <input type="checkbox" name="agree" className="check"/>
-            <label htmlFor="agree">
+            <label htmlFor="agree" className="agree">
               You agree to providing your data to{name} who you may contzact you
             </label>
           </div>
