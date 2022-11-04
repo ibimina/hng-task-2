@@ -2,45 +2,73 @@ import Footer from "../components/Footer"
 import "./contact.css"
 export default function Contact() {
   return (
-    <div className="contact-container">
-      <h2>Contact Me</h2>
-      <p>
-        Hi there, contact me to ask about anything you have in mind.
-        </p>
+    <div className="container">
+      <div className="contact-container">
+        <h2 className="contact-hd">Contact Me</h2>
+        <p className="hello">Hi there, contact me to ask about anything you have in mind.</p>
         <form>
-          <div>
-            <label htmlFor="first name">First Name</label>
-            <input type="text" name="first name" id="first_name" />
+          <div className="input-con">
+            <label htmlFor="first name" className="label-margin">
+              First Name
+            </label>
+            <input
+              type="text"
+              name="first name"
+              id="first_name"
+              placeholder="Enter your first name"
+              className="info"
+            />
           </div>
-          <div>
-            <label htmlFor="lastname">Last Name</label>
-            <input type="text" name="lastname" id="last_name" />
+          <div className="input-con">
+            <label htmlFor="lastname" className="label-margin">
+              Last Name
+            </label>
+            <input
+              type="text"
+              name="lastname"
+              id="last_name"
+              placeholder="Enter your last name"
+              className="info"
+            />
           </div>
 
-          <div>
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" id="email" />
+          <div className="input-con">
+            <label htmlFor="email" className="label-margin">
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="yourname@email.com"
+              className="info"
+            />
           </div>
-          <div>
-            <label htmlFor="message">Message</label>
+          <div className="input-con">
+            <label htmlFor="message" className="label-margin">
+              Message
+            </label>
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
+              placeholder="Send me a message and I'll reply you as soon as possible"
+              className="info"
             ></textarea>
           </div>
-          <div>
+          <div className="flex">
             <input type="checkbox" name="agree" id="" />
             <label htmlFor="agree">
               You agree to providing your data to{name} who you may contzact you
             </label>
           </div>
-          <button type="submit" id="btn_submit">
-            send message
+          <button type="submit" id="btn_submit" className="submit">
+                Send message
           </button>
         </form>
-    <Footer/>
+      </div>
+      <Footer />
     </div>
   );
 }
