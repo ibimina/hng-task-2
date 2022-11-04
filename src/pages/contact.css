@@ -30,12 +30,16 @@
   border-radius: 5px;
   background: #ffffff;
   border: 1px solid #d0d5dd;
+  outline:0;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
   color: #667085;
 }
 .info:not(:placeholder-shown){
     color: #101828;
+}
+.info:focus{
+    border: 1px solid #84CAFF;
 }
 .flex {
   display: flex;
