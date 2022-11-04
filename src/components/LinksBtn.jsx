@@ -57,7 +57,7 @@ export default function LinksBtn() {
         </a>
       ))}
       <Link to="/contact" className="btn" id="contact">
-        contact
+        Contact Me
       </Link>
       <div className="social_icon">
         <img src="/assets/slack.svg" alt="slack icon" />
