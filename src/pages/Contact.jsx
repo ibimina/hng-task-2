@@ -1,7 +1,8 @@
 import Footer from "../components/Footer"
 import "./contact.css"
 export default function Contact() {
-  return (
+    const name ="Ibimina"
+  return( 
     <div className="container">
       <div className="contact-container">
         <h2 className="contact-hd">Contact Me</h2>
