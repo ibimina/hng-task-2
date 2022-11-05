@@ -55,6 +55,7 @@ export default function Contact() {
     ) {
       alert("successful")
       setFormValues(initial)
+      setCheckBox(false)
     }
   };
 
