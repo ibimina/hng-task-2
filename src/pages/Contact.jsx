@@ -153,7 +153,7 @@ export default function Contact() {
               }
             />
             <label htmlFor="agree" className="agree">
-              You agree to providing your data to {name} who you may contzact you
+              You agree to providing your data to {name} who you may contact you
             </label>
           </div>
           <button
