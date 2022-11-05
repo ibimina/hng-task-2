@@ -84,7 +84,7 @@ export default function Contact() {
               />
 
               <p className={`none ${nam === true ? "nameerror" : ""}`}>
-                please enter your first name
+                Please enter your first name
               </p>
             </div>
             <div className="input-con">
@@ -101,7 +101,7 @@ export default function Contact() {
                 onChange={handleChange}
               />
               <p className={`none  ${las === true ? "nameerror" : ""}`}>
-                please enter your last name
+                Please enter your last name
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ export default function Contact() {
               onChange={handleChange}
             ></textarea>
             <p className={`none ${mes === true ? "nameerror" : ""}`}>
-              please enter your message
+              Please enter your message
             </p>
           </div>
 
